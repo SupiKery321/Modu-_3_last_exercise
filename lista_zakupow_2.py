@@ -7,7 +7,8 @@ Lista_zakupow = {
 
 ile = 0
 for key in Lista_zakupow:
-  print("Idę do", key.capitalize(), "i kupuję tam", Lista_zakupow[key])
+  lista = [a.capitalize() for a in Lista_zakupow[key]]
+  print("Idę do", key.capitalize(), "i kupuję tam", lista)
   ile = ile + len(Lista_zakupow[key])
 print("W sumie kupuję", ile , "produktów")
 
