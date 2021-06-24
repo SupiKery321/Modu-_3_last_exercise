@@ -16,3 +16,5 @@ print("Zadanie 2")
 for number in range(0,101):
     if number % 5 == 0:
         print(number**3)
+
+print("supi_learns_branch")
